@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <title>Tribute to Agatha Christie</title>
 </head>
 
@@ -16,7 +17,7 @@
         <img src="images/Agatha07.jpg">
       </div>
       <div class="wrapper">
-        <div class="textholder">
+        <div class="textholder" data-aos="fade-up" data-aos-duration="1000">
         <h3>QUEEN OF CRIME FICTION</h3>
         <h1>Agatha Christie</h1>
         <p class="quote" id="quote1">“The truth, however ugly in itself, is always curious and beautiful to seekers after it.”</p>
@@ -26,7 +27,7 @@
 
   <section id="section2">
     <div class="wrapper">
-    <p id="biography">Agatha Christie was an English writer known for her 66 detective novels and fourteen short story collections, particularly those revolving around fictional detectives Hercule Poirot and Miss Marple.
+    <p id="biography" data-aos="fade-up" data-aos-duration="1000">Agatha Christie was an English writer known for her 66 detective novels and fourteen short story collections, particularly those revolving around fictional detectives Hercule Poirot and Miss Marple.
     <br>
     <br>She also wrote the world's longest-running play, The Mousetrap, which was performed in the West End from 1952 to 2020, as well as six novels under the pseudonym Mary Westmacott.
     <br>
@@ -34,7 +35,7 @@
   </div>
   </section>
 
-  <section id="section3">
+  <section id="section3" data-aos="fade-up" data-aos-duration="1000">
     <div class="wrapper">
 
       <div id="timelineholder">
@@ -106,8 +107,8 @@
     <div class="imagewindow">
     </div>
 
-    <div class="wrapper">
-    <p class="quote" id="quote2">““I like living. I have sometimes been wildly, despairingly, acutely miserable, racked with sorrow; but through it all I still know quite certainly that just to be alive is a grand thing.”</p>
+    <div class="wrapper" data-aos="fade-up" data-aos-duration="1000">
+    <p class="quote" id="quote2" >““I like living. I have sometimes been wildly, despairingly, acutely miserable, racked with sorrow; but through it all I still know quite certainly that just to be alive is a grand thing.”</p>
     <h3 id="credit">AGATHA CHRISTIE</h3>
   </div>
   </section>
@@ -121,5 +122,9 @@
 
 </div>
 
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script>
+   AOS.init();
+ </script>
 </body>
 </html>
