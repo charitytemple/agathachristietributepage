@@ -249,6 +249,7 @@ a{
 
   .textholder{
     grid-column: 6 / 13;
+    grid-row: 2 /5;
     align-self: center;
   }
 
